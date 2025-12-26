@@ -6,6 +6,7 @@ pipeline {
     }
 
     stages {
+        // Only use that portion of the code when not using SCM and code is in the script in Jenkins url
         // stage('Checkout') {
         //     steps {
         //         // Jenkins downloads your code from GitHub
