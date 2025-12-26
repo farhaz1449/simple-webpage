@@ -19,7 +19,7 @@ pipeline {
                 echo 'Validating index.html...'
                 // Simple test: Ensure the word "Welcome" exists in your code
                 sh 'grep -q "Abu Farhaz" index.html'
-                sh 'echo ${DEPLOY_IP}
+                sh 'echo ${DEPLOY_IP}'
             }
         }
 
